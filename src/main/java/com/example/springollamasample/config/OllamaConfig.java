@@ -18,7 +18,7 @@ public class OllamaConfig {
     @Value("${spring.ai.ollama.base-url:http://localhost:11434}")
     private String baseUrl;
 
-    @Value("${spring.ai.ollama.chat.options.model:qwen2.5-coder}")
+    @Value("${spring.ai.ollama.chat.options.model:qwen3-coder:30b}")
     private String model;
 
     @Bean

@@ -13,7 +13,7 @@ Spring Boot + Ollama AI with web scraping capabilities. Chat with AI that can fe
 ollama pull qwen3-coder:30b
 
 # Run the application
-./mvnw spring-boot:run
+mvn spring-boot:run
 ```
 
 Application starts at **http://localhost:8080**
